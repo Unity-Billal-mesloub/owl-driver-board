@@ -168,6 +168,34 @@
         [
           "courtyards_overlap|92634928|85063838|30b5639b-5aae-43b5-b547-ccc26d6a7b93|cf4b5a9b-bf72-431b-92a0-d54cf9cad86f",
           ""
+        ],
+        [
+          "silk_over_copper|123007494|77750000|a25f5f6a-4436-4ce5-b084-46544cdc9176|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|128457494|70150000|c69b69fc-f900-4854-8812-c3fbdc27219d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|185422494|92850000|90b201cf-7ac8-448e-a8c4-d3bdff9492ce|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|218300000|99000000|9cd53a34-380c-46fe-a51d-e2df356d8e6b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|42692500|77750000|ec8977ba-671d-4e79-ac8b-1c5a918d2226|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|52707500|94900000|12731e89-d915-44f3-a406-901a8a25cd94|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|73072494|99400000|71947165-15dc-4358-85ff-026c39c37c50|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -219,6 +247,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -372,12 +401,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_issues|1028700|3467100|7ae3106e-3915-44a7-847c-3b60a12b18be|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -642,7 +666,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "owl-driver-board-16.step",
       "svg": "",
       "vrml": ""
     },
