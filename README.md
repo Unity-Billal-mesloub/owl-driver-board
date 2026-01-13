@@ -73,12 +73,21 @@ You can buy a finished board (4x or 16x output versions) via the following distr
 ## 16x v1.1
 
 * Correctly connect the input connectors to the input fuses.
+* Add 10k discharge resistors across each output, to reduce "ghost voltages"
+  see when outputs are off, caused by leakage across the MOSFETs
 
 ## 16x v1.0
 
 * Initial prototype of a 16-output version of the PCB. Note the Gerbers for
   this version have a bug - the input connectors are not attached to the fuse
   input, and a link must be manually soldered.
+
+## 4x v2.5
+
+* Add 10k discharge resistors across each output, to reduce "ghost voltages"
+  see when outputs are off, caused by leakage across the MOSFETs
+* Change screw terminals for Phoenix Contact part 1935161 (C3819953), replaces 1890963. #1935161 is 11mm in height (down from 13mm) which improves clearance
+  in the enclosure.
 
 ## 4x v2.4
 
