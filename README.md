@@ -10,7 +10,7 @@
 <img src="./doc/16-v1.0/3.jpg" alt="16-output OWL Driver Board version 1.0" width="700">
 
 The OWL Driver Board is a solid-state relay HAT for the Raspberry Pi. It was
-developed for use with the [Open Weed Locator](https://github.com/geezacoleman/OpenWeedLocator) 
+developed for use with the [Open Weed Locator](https://github.com/Unity-Agriculture/OpenWeedLocator) 
 but is suitable for any high-power, industrial, automotive or agricultural application.
 
 It allows a Raspberry Pi to drive either 4x or 16x 2A outputs in any 12V or 24V
